@@ -1,0 +1,216 @@
+{
+    "_comment_" : [
+        "Please do not automate the download and installation of Forge.",
+        "Our efforts are supported by ads from the download page.",
+        "If you MUST automate this, please consider supporting the project through https://www.patreon.com/LexManos/"
+    ],
+    "id" : "1.7.10-forge-10.13.4.1614",
+    "time" : "2015-12-10T00:05:37-0500",
+    "releaseTime" : "1960-01-01T00:00:00-0700",
+    "type" : "release",
+    "mainClass" : "net.minecraft.launchwrapper.Launch",
+    "inheritsFrom" : "1.7.10",
+    "minecraftArguments" : "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass cpw.mods.fml.common.launcher.FMLTweaker",
+    "assets" : "1.7.10",
+    "minimumLauncherVersion" : 14,
+    "libraries" : [
+        {
+            "name" : "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10.jar",
+                    "url" : "",
+                    "sha1" : "25fd97f72beca728112256938e03e8105b1b78cc",
+                    "size" : 3018833
+                }
+            }
+        },
+        {
+            "name" : "net.minecraft:launchwrapper:1.12",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+                    "url" : "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+                    "sha1" : "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
+                    "size" : 32999
+                }
+            }
+        },
+        {
+            "name" : "org.ow2.asm:asm-all:5.0.3",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+                    "url" : "https://libraries.minecraft.net/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+                    "sha1" : "4333508b8dd8ee72aa4e39afa713b3a74579b773",
+                    "size" : 241639
+                }
+            }
+        },
+        {
+            "name" : "com.typesafe.akka:akka-actor_2.11:2.3.3",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar",
+                    "url" : "https://maven.minecraftforge.net/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar",
+                    "sha1" : "ed62e9fc709ca0f2ff1a3220daa8b70a2870078e",
+                    "size" : 2514991
+                }
+            }
+        },
+        {
+            "name" : "com.typesafe:config:1.2.1",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "com/typesafe/config/1.2.1/config-1.2.1.jar",
+                    "url" : "https://maven.minecraftforge.net/com/typesafe/config/1.2.1/config-1.2.1.jar",
+                    "sha1" : "f771f71fdae3df231bcd54d5ca2d57f0bf93f467",
+                    "size" : 219554
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+                    "sha1" : "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
+                    "size" : 58018
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang:scala-compiler:2.11.1",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+                    "sha1" : "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+                    "size" : 13449765
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar",
+                    "sha1" : "0e517c53a7e9acd6b1668c5a35eccbaa3bab9aac",
+                    "size" : 25365
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar",
+                    "sha1" : "f361a3283452c57fa30c1ee69448995de23c60f7",
+                    "size" : 206575
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang:scala-library:2.11.1",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+                    "sha1" : "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+                    "size" : 5538130
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+                    "sha1" : "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+                    "size" : 419701
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang:scala-reflect:2.11.1",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+                    "sha1" : "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+                    "size" : 4372892
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang:scala-swing_2.11:1.0.1",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+                    "sha1" : "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+                    "size" : 726500
+                }
+            }
+        },
+        {
+            "name" : "org.scala-lang:scala-xml_2.11:1.0.2",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+                    "url" : "https://maven.minecraftforge.net/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+                    "sha1" : "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+                    "size" : 648679
+                }
+            }
+        },
+        {
+            "name" : "lzma:lzma:0.0.1",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "lzma/lzma/0.0.1/lzma-0.0.1.jar",
+                    "url" : "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar",
+                    "sha1" : "521616dc7487b42bef0e803bd2fa3faf668101d7",
+                    "size" : 5762
+                }
+            }
+        },
+        {
+            "name" : "net.sf.jopt-simple:jopt-simple:4.5",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar",
+                    "url" : "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar",
+                    "sha1" : "6065cc95c661255349c1d0756657be17c29a4fd3",
+                    "size" : 61311
+                }
+            }
+        },
+        {
+            "name" : "com.google.guava:guava:17.0",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "com/google/guava/guava/17.0/guava-17.0.jar",
+                    "url" : "https://libraries.minecraft.net/com/google/guava/guava/17.0/guava-17.0.jar",
+                    "sha1" : "9c6ef172e8de35fd8d4d8783e4821e57cdef7445",
+                    "size" : 2243036
+                }
+            }
+        },
+        {
+            "name" : "org.apache.commons:commons-lang3:3.3.2",
+            "downloads" : {
+                "artifact" : {
+                    "path" : "org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar",
+                    "url" : "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar",
+                    "sha1" : "90a3822c38ec8c996e84c16a3477ef632cbc87a3",
+                    "size" : 412739
+                }
+            }
+        }
+    ]
+}
